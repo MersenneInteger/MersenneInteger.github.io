@@ -1,10 +1,19 @@
 body
 {
     background-repeat: no-repeat;
-    background-size: 100% 220%;
+    background-size: 100%;
 }
 
 .overlap
 {
     position: relative;
+}
+
+#date
+{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
