@@ -1,12 +1,22 @@
 body
 {
     background-repeat: no-repeat;
-    background-size: 100% 250%;
+    background-size: 100%;
 }
 
-.overlap
+.top-left-overlap
 {
-    position: relative;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.bottom-right-overlap
+{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    zoom: 50%;
 }
 
 #date
