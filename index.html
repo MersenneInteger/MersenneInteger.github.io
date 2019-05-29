@@ -4,13 +4,25 @@
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="style.css">
         <script type="text/javascript" src="getDate.js">getDate()</script>
+        <script type="text/javascript" src="numGuessGame.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+        
     </head>
 
     <body background="images/train.gif">
+        <div class="header">
+            <nav>
+                <a href="bangbang.html">Bang Bang!</a>
+            </nav>
+        </div>
+        <br><br>
         <div class="top_left_overlap"><img src="images/spike.gif"></div>
         <p id="date"></p>
         <script>getDate()</script>
         <br><br>
-        <a href="bangbang.html" style="color:whitesmoke;">Bang Bang!</a>
+        <div>
+            <button class="guessNumBtn" onclick="guessNum()">Make a Guess</button>
+        </div>
+        <br><br>
     </body>
 </html>
