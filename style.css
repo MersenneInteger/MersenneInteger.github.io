@@ -4,6 +4,19 @@ body
     background-size: 100%;
 }
 
+nav {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.2em;
+    color: whitesmoke;
+}
+
+.header{
+    border: 1px solid white;
+    height: 100px;
+    margin-top: 0px;
+}
+
 .top-left-overlap
 {
     position: absolute;
@@ -22,8 +35,16 @@ body
 #date
 {
     position: absolute;
-    right: 0px;
+    right: 30px;
     top: 0px;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.guessNumBtn{
+    margin: auto;
+    background-color: red;
+    border: 2px solid black;
+    display: block;
+}
+
