@@ -5,13 +5,26 @@
         <link rel="stylesheet" type="text/css" href="style.css">
         <script type="text/javascript" src="getDate.js">getDate()</script>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-        
     </head>
 
     <body background="images/train.gif">
         <div class="header">
-            <nav>
-                <a href="bangbang.html">Bang Bang!</a>
+            <nav class="navbar">
+                <span class="open-slide">
+                    <a href="#">
+                    <svg width="30" height ="30">
+                        <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+                        <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+                        <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+                    </svg>
+                    </a>
+                </span>
+        
+                <ul class="navbar-nav">
+                    <a href="bangbang.html">Bang Bang!</a>
+                    <li><a href="https://github.com/MersenneInteger" target="blank">Github</a></li>
+                    <li><a href="#">Future</a></li>
+                </ul>
             </nav>
         </div>
         <br><br>
@@ -22,7 +35,13 @@
         <div>
             <button class="guessNumBtn">Make a Guess</button>
         </div>
+        <div id="side-menu" class="side-nav">
+            <a href="#" class="btn-close">&times;</a>
+            <a href="bangbang.html">Bang Bang!</a>
+            <a href="https://github.com/MersenneInteger" target="blank">Github</a>
+            </div>
         <br><br>
         <script type="text/javascript" src="numGuessGame.js"></script>
+        <script type="text/javascript" src="script.js"></script>
     </body>
 </html>
